@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+</head>
+
+<style type="text/css">
+	.fai{
+		width: 300px;
+		height: 300px;
+		background: firebrick;
+		position: relative;
+		margin:0 auto;
+		margin-top:100px;
+	}
+	.hand618{
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		background: url(images/39.png)center center no-repeat;
+		display: block;
+		background-size:100%;
+		right: 0;
+		top:0;
+		transition: all 1s;
+	}
+</style>
+<script type="text/javascript">
+	$(function(){
+		
+			$('.hand618').css({
+				'right':'150px',
+				'top':"400px"
+				})
+		
+	})
+</script>
+<body>
+	 <div class="fai">
+	 	<i class="hand618"></i>
+	 </div>
+</body>
+</html>
